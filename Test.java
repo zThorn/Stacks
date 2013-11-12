@@ -11,7 +11,7 @@ public class Test
 		StatementProcessor process = new StatementProcessor();
 		String in;
 		Scanner input = new Scanner(System.in);
-		System.out.println("Input yo string dawg");
+		System.out.println("Input your string: ");
 		in=input.nextLine();
 		
 		for(int i=0;i<in.length();i++)
